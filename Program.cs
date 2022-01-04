@@ -14,16 +14,16 @@ Console.WriteLine("Hello, World!");
 //CalculateWagesFor20DaysInMonth.CalculateWagesFor20DaysInMonthX();
 //CalculateWageTill100HrsOr20IsReached.CalculateWageTill100HrsOr20IsReachedX();
 //ComputeEmpWageUsingClassMethod.ComputeEmpWageX();
-//ComputeEmpWageForMultipleCompanies.ComputeEmpWageX("Tata",20,10,20);
+//ComputeEmpWageForMultipleCompanies.ComputeEmpWageX("Tata", 20, 10, 20);
 
-//#region Array1
-//EmpWageBuilderObject dMart = new EmpWageBuilderObject("DMart", 20, 2, 10);
-//EmpWageBuilderObject reliance = new EmpWageBuilderObject("Reliance", 10, 4, 20);
-//dMart.computeEmpWage();
-//Console.WriteLine(dMart.toString());
-//reliance.computeEmpWage();
-//Console.WriteLine(reliance.toString());
-//#endregion  Array1Ending
+#region Array1
+EmpWageBuilderObject dMart = new EmpWageBuilderObject("DMart", 20, 2, 10);
+EmpWageBuilderObject reliance = new EmpWageBuilderObject("Reliance", 10, 4, 20);
+dMart.computeEmpWage();
+Console.WriteLine(dMart.toString());
+reliance.computeEmpWage();
+Console.WriteLine(reliance.toString());
+#endregion  Array1Ending
 
 //#region Array2
 //EmpWageBuilderArray empWageBuilder = new EmpWageBuilderArray();
